@@ -8,7 +8,10 @@ let score2El = document.getElementById("score2-el")
 
 function incrementByOne1() {
    let newScore = score1 + 1
+      newScore = newScore + 1
+      newScore++
    score1El.textContent = newScore
+      
 }
 
 function incrementByTwo2() {
